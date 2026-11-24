@@ -8,9 +8,13 @@
 
 **English** · [Português (Brasil)](README.pt-BR.md)
 
-[Report an issue](https://github.com/fabioschmidt01/PokeL-ARecomp/issues) ·
-[![Latest release](https://img.shields.io/github/v/release/fabioschmidt01/PokeL-ARecomp?label=latest)](https://github.com/fabioschmidt01/PokeL-ARecomp/releases/latest) ·
-[Download](https://github.com/fabioschmidt01/PokeL-ARecomp/releases/latest)
+> **Unofficial Windows ARM64 build** for Android (GameHub) and Windows on ARM, maintained at
+> [olivergrosche/PokeL-ARecomp-ARM64](https://github.com/olivergrosche/PokeL-ARecomp-ARM64). PC (x64) players: use the
+> [official releases](https://github.com/fabioschmidt01/PokeL-ARecomp/releases/latest) by fabioschmidt01.
+
+[Report an issue](https://github.com/olivergrosche/PokeL-ARecomp-ARM64/issues) ·
+[![Latest release](https://img.shields.io/github/v/release/olivergrosche/PokeL-ARecomp-ARM64?label=latest)](https://github.com/olivergrosche/PokeL-ARecomp-ARM64/releases/latest) ·
+[Download](https://github.com/olivergrosche/PokeL-ARecomp-ARM64/releases/latest)
 
 </div>
 
@@ -22,14 +26,14 @@
 > 🇧🇷 **Aviso da Comunidade:**  
 > Este é um projeto de código aberto em estágio ativo de desenvolvimento. Durante os testes internos (feitos por mim e amigos da comunidade), observamos que **bugs visuais, quedas temporárias de performance em transições (telas de carregamento, início de batalhas e fades) e eventuais travamentos/crashes são esperados**.
 > 
-> Pedimos a sua paciência e compreensão! Se você encontrar qualquer problema ou crash, **nos ajude reportando na aba [Issues](https://github.com/fabioschmidt01/PokeL-ARecomp/issues)** anexando os arquivos `lasrecomp.log` e `larecomp.ini` que ficam na pasta raiz do seu jogo. Com o seu feedback, conseguiremos lapidar e melhorar o port cada vez mais rápido!
+> Pedimos a sua paciência e compreensão! Se você encontrar qualquer problema ou crash, **nos ajude reportando na aba [Issues](https://github.com/olivergrosche/PokeL-ARecomp-ARM64/issues)** anexando os arquivos `lasrecomp.log` e `larecomp.ini` que ficam na pasta raiz do seu jogo. Com o seu feedback, conseguiremos lapidar e melhorar o port cada vez mais rápido!
 >
 > ---
 >
 > 🇺🇸 **Community Notice:**  
 > This is an open-source project under active development. Throughout testing (conducted by myself, friends, and community testers), we have observed that **visual glitches, temporary performance drops during transitions (loading screens, battle entries, fades), and occasional crashes are expected**.
 >
-> We kindly ask for your patience and understanding! If you encounter any bugs or crashes, **please help us by opening a report in the [Issues](https://github.com/fabioschmidt01/PokeL-ARecomp/issues) tab**, attaching your `lasrecomp.log` and `larecomp.ini` from your game's root folder. Your feedback is essential to helping us improve the port as quickly as possible!
+> We kindly ask for your patience and understanding! If you encounter any bugs or crashes, **please help us by opening a report in the [Issues](https://github.com/olivergrosche/PokeL-ARecomp-ARM64/issues) tab**, attaching your `lasrecomp.log` and `larecomp.ini` from your game's root folder. Your feedback is essential to helping us improve the port as quickly as possible!
 
 **PokeL-ARecomp** (PLA Recomp) turns *Pokémon Legends: Arceus* Nintendo Switch code into a native 64-bit Windows and Linux program.
 The game's ARM64 machine code is translated ahead-of-time (AOT) into C and compiled natively for x86-64. The Nintendo Switch OS kernel, filesystem, audio and Maxwell NVN graphics are reimplemented directly on top of Vulkan.
